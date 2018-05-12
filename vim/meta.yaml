@@ -1,0 +1,19 @@
+package:
+  name: vim
+  version: "8.0.1819"
+
+source:
+  git_rev: master
+  git_url: https://github.com/vim/vim.git
+
+requirements:
+  build:
+    - gcc
+    - git
+    - cmake
+    - make
+  run:
+    - python
+
+about:
+  home: https://github.com/vim/vim
