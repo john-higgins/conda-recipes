@@ -1,6 +1,6 @@
 package:
   name: vim
-  version: "8.0"
+  version: "8.1"
 
 source:
   git_rev: master
@@ -12,9 +12,9 @@ requirements:
     - git
     - cmake
     - make
-    - python==3.6.5
+    - python==3.6.1
   run:
-    - python==3.6.5
+    - python==3.6.1
 
 about:
   home: https://github.com/vim/vim
